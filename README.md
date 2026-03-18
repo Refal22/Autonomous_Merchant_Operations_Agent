@@ -57,7 +57,7 @@ Then:
 - Click **Run Agent**
 - View results in the UI
 
-## 📊 Outputs
+## Outputs
 After running the agent, a `results/` folder will be created containing:
 
 - `cleaned_catalog_*.csv`
@@ -66,7 +66,7 @@ After running the agent, a `results/` folder will be created containing:
 - `*_mapping_*.csv` (normalization mappings for monitoring and further processing)
 - Final **Daily Report (Markdown)**
 
-## 📌 Sample Output
+## Sample Output
 
 A sample daily report generated from the dataset is included in the repository under:
 ```
