@@ -38,7 +38,7 @@ pip install -r requirements.txt
 3. Modify the `.env` file with your API keys:
 ```env
 GROQ_API_KEY='your_groq_api_key'
-LANGCHAIN_API_KEY='your_langsmith_api_key'
+LANGSMITH_API_KEY='your_langsmith_api_key'
 ```
 
 ## How to Run
@@ -68,7 +68,7 @@ After running the agent, a `results/` folder will be created containing:
 
 ## Sample Output
 
-A sample daily report generated from the dataset is included in the repository under:
+A sample daily report generated from the agent is included in the repository under:
 ```
 sample_output/daily_report.md
 ```
