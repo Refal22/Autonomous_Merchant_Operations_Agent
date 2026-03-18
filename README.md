@@ -6,7 +6,7 @@ This project aims to build an **Autonomous Merchant Operations Agent** that help
 - [Setup](#setup)
 - [How to Run](#how-to-run)
 - [Outputs](#outputs)
-- [Assumptions & Notes](#assumptions--notes)
+- [Assumptions](#assumptions--notes)
 
 ## Project Structure
 ```
@@ -72,5 +72,6 @@ A sample daily report generated from the agent is included in the repository und
 ```
 sample_output/daily_report.md
 ```
-
 ---
+
+## Assumptions
