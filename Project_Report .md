@@ -1,4 +1,4 @@
-# Build Report
+# Project Report 
 
 ## Explanation of Design Decisions
 The project was designed as a **modular agent-based system** to ensure flexibility, maintainability, and ease of debugging. 
