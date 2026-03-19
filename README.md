@@ -66,6 +66,8 @@ After running the agent, a `results/` folder will be created containing:
 - `*_mapping_*.csv` (normalization mappings for monitoring and further processing)
 - Final `Daily Report (Markdown)`
 
+And a `deduplicated/` folder, which contains the deduplicated customer messages and configuration files for the used library.
+
 ## Sample Output
 
 A sample daily report generated from the agent is included in the repository under:
