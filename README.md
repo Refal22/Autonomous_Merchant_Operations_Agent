@@ -1,4 +1,4 @@
-# Autonomous_Merchant_Operations_Agent
+# Autonomous Merchant Operations Agent
 This project aims to build an **Autonomous Merchant Operations Agent** that helps online merchants manage their stores with less manual effort.
 
 ## 📌 Table of Contents
@@ -6,7 +6,7 @@ This project aims to build an **Autonomous Merchant Operations Agent** that help
 - [Setup](#setup)
 - [How to Run](#how-to-run)
 - [Outputs](#outputs)
-- [Assumptions](#assumptions--notes)
+- [Assumptions](#assumptions)
 
 ## Project Structure
 ```
@@ -70,8 +70,17 @@ After running the agent, a `results/` folder will be created containing:
 
 A sample daily report generated from the agent is included in the repository under:
 ```
-sample_output/daily_report.md
+sample_output/Daily_report.md
 ```
 ---
 
 ## Assumptions
+The system was developed based on the following assumptions:
+- The product catalog is provided as a CSV file with consistent and expected column names.
+- The dataset properly contains mis-entered or inconsistent data (e.g., misspellings, unclear values, duplicates), and the system is expected to handle and normalize these issues.
+- Products with identical features after cleaning are considered duplicates and are consolidated into a single normalized record.
+- Customer messages may contain repeated entries; duplicates are removed while keeping messages that contain additional meaningful information.
+- Customer complaints and negative sentiment are treated as valid signals reflecting real issues with products.
+- If negative feedback increases, price increases should be avoided.
+- The system has access to external services (e.g., Groq for LLM inference and LangSmith for tracing) during runtime.
+- The merchant is expected to understand the generated report and take appropriate actions based on the recommendations.
