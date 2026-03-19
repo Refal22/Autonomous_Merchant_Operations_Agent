@@ -40,8 +40,8 @@ pip install -r requirements.txt
 GROQ_API_KEY='your_groq_api_key'
 LANGSMITH_API_KEY='your_langsmith_api_key'
 LANGSMITH_TRACING=true'
-LANGSMITH_PROJECT= your-project-name'
-LANGSMITH_ENDPOINT= https://api.smith.langchain.com'
+LANGSMITH_PROJECT= your-project-name
+LANGSMITH_ENDPOINT= https://api.smith.langchain.com
 ```
 
 ## How to Run
