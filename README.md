@@ -75,7 +75,7 @@ And a `deduplicated/` folder, which contains the deduplicated customer messages 
 
 A sample daily report generated from the agent is included in the repository under:
 ```
-sample_output/Daily_report.md
+sample_output/daily_report.md
 ```
 ---
 
