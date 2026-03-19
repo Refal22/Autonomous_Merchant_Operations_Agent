@@ -35,10 +35,13 @@ Project/
 ```bash
 pip install -r requirements.txt
 ```
-3. Modify the `.env` file with your API keys:
+3. Create a file named '.env' in your project folder and paste the following, replacing the placeholder values with your own API keys:
 ```env
 GROQ_API_KEY='your_groq_api_key'
 LANGSMITH_API_KEY='your_langsmith_api_key'
+LANGSMITH_TRACING=true'
+LANGSMITH_PROJECT= your-project-name'
+LANGSMITH_ENDPOINT= https://api.smith.langchain.com'
 ```
 
 ## How to Run
