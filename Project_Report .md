@@ -64,4 +64,15 @@ This balance improved both stability and performance while keeping the system ef
 
 Overall, debugging required iterative testing, careful inspection of intermediate outputs, and continuous refinement of both prompts and tool logic until the system behaved consistently.
 
+## Trade-offs
+During development, several trade-offs were made to balance accuracy, robustness, performance, and system complexity.
+
+First, there was a trade-off between **LLM-based reasoning and deterministic logic**. As compared to LLMs, which handled unstructured data well, deterministic logic handled messy data better, but introduced more variability. So for that, a hybrid approach was used as mentioned in the previous section.
+
+Second, **agent autonomy had to be traded off with controlled execution**. Due to errors and loops caused by fully autonomous agents, a strict workflow was enforced. This improved reliability but reduced flexibility.
+
+The third trade-off was **robustness vs complexity**. Improving stability through validation and fallback logic increased reliability, but also added complexity and maintenance overhead.
+
+Overall, the system prioritizes reliability, ensuring consistent outputs while accepting reduced flexibility. I was focused on building a complete ***end-to-end workflow*** within the project scope, along with the ***core agent functionalities***.
+
 
