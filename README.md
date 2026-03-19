@@ -10,7 +10,7 @@ This project aims to build an **Autonomous Merchant Operations Agent** that help
 
 ## Project Structure
 ```
-project/
+Project/
 │
 ├── Agent/
 │ └── agent.py # Main agent (entry point)
@@ -64,7 +64,7 @@ After running the agent, a `results/` folder will be created containing:
 - `customer_messages_analysis.csv`
 - `price_results.csv`
 - `*_mapping_*.csv` (normalization mappings for monitoring and further processing)
-- Final **Daily Report (Markdown)**
+- Final `Daily Report (Markdown)`
 
 ## Sample Output
 
